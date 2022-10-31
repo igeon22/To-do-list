@@ -265,7 +265,7 @@ function deleteTasks(lst,title,date,priority){
 }
 
 // console.log("Local"+localTasks);
-window.onload = Load(allTasks)
+// window.onload = Load(allTasks)
 // localStorage.clear()
 // var v = today()
 // console.log(v);
