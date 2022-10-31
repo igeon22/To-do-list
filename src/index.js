@@ -1,6 +1,6 @@
 import { remove, split } from "lodash";
 import { sayHello } from "./greeting";
-import {ProjectCreator,CreateButton} from "./createproject"
+// import {ProjectCreator,CreateButton} from "./createproject"
 
 import {today} from "./datemanage"
 
@@ -23,7 +23,7 @@ import  "./project-style.css";
 
 // })
 
-CreateButton()
+// CreateButton()
 
 // const date = new Date()
 // console.log(typeof(date));
