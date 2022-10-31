@@ -11,7 +11,6 @@ function CreateElement(parent,type,value="",textContent="",className=""){
 	return newElement
 }
 
-const localTasks = JSON.parse(localStorage.getItem('tasks'))
 
 
 
@@ -85,12 +84,17 @@ function CreateButton(){
 
 
 
-if(localTasks != null){
+const localTasks = JSON.parse(localStorage.getItem('tasks'))
+if(localTasks){
+	const localTasks = JSON.parse(localStorage.getItem('tasks'))
 	var allTasks = localTasks
+
 }
 else{
 
 	var allTasks = [{'title':'Default task','date':'27-03-2020','priority':'High'}]
+	localStorage.setItem('tasks',JSON.stringify(allTasks))
+
 }
 
 
@@ -261,6 +265,7 @@ function deleteTasks(lst,title,date,priority){
 }
 
 // console.log("Local"+localTasks);
-// window.onload = Load(localTasks)
+window.onload = Load(allTasks)
+// localStorage.clear()
 // var v = today()
 // console.log(v);
