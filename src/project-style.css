@@ -1,0 +1,61 @@
+.project-container-up{
+	width: 200px;
+	height: 120px;
+	background-color: #e2e8f0;
+	border: 0px solid gray;
+	border-radius: 10px;
+	padding: 15px 5px;
+	color: black;
+	font-family: calibri;
+	font-weight: bold;
+	box-shadow: 3px 3px 3px rgb(196, 196, 196);
+}
+
+
+
+.project-title{
+	text-align: center;
+	font-size: 1.1em;
+	/* text-shadow: 1px 1px 1px #9333ea; */
+	color: #9333ea;
+}
+
+
+.prio-color{
+
+
+}
+
+.days{
+	font-style: italic;
+	color: #4f46e5;
+	
+}
+
+.del-task-cont{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.del-btn{
+	border: 0px solid;
+	border-radius: 50%;
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: tomato;
+	color: white;
+	width: 20.91px;
+	height: 20.91px;
+	text-align: center;
+}
+
+.del-btn:hover{
+	background-color: rgb(240, 129, 109);
+
+}
+
+.exp-date{
+	color: #3730a3;
+}

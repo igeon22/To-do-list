@@ -1,0 +1,160 @@
+
+
+
+h1{
+	color: blueviolet;
+}
+
+body{
+	width: 95%;
+	height: 100%;
+	margin-right: auto;
+	/* background-color: whitesmoke; */
+	margin-left: auto;
+	
+}
+
+
+header{
+	font-family: sans-serif;
+	background-color: #ef4444;
+	padding: 1px 0px;
+
+}
+
+
+.page-title{
+	text-align: center;
+	color: white;
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.main{
+	/* background-color: whitesmoke; */
+	width: 210px;
+	height: 130px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px 5px;
+	/* height: 100vh; */
+
+
+}
+
+
+
+.create-project{
+	margin-top: 30px;
+	border: 0px solid;
+	background-color:#a3e635;
+	padding: 7px 5px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	border-radius: 8px;
+	width: 130.6;
+	height: 34px;
+}
+
+.create-project:hover{
+	opacity: 0.7;
+}
+
+.project-create-cont{
+	width: 250px;
+	height: 300px;
+	background-color:#1e3a8a;
+	border: 1px solid gray;
+	border-radius: 7px;
+	padding: 0px 5px;
+	
+	box-shadow: 2px 2px 2px gray;
+
+}
+
+.pc-title{
+	color: whitesmoke;
+	text-align: center;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+.p-lb{
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+}
+
+
+
+#p-name,#p-date{
+	/* border: none;
+	border-bottom: 1px solid white;
+	background-color: transparent; */
+	font-family: calibri;
+	display: block;
+	height: 17px;
+	border-radius: 7px;
+	width: 141px;
+	border: 0px solid transparent;
+	margin-bottom: 10px;
+}
+
+#p-name:active,#p-date:active{
+	border-bottom: 1px solid white;
+	background-color: transparent;
+
+}
+
+
+.v-project{
+	border: 0px solid;
+	display: block;
+	background-color:#8b5cf6;
+	padding: 5px 7px;
+	color: white;
+	font-family: calibri;
+	font-weight: bold;
+	border-radius: 8px;
+	margin-top: 40px;
+	width: 92.16px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.v-project:hover{
+	opacity: 0.7;
+}
+
+
+
+#prio{
+	font-family: calibri;
+	font-weight: bold;
+}
+
+.test{
+	color: red;
+}
+
+
+.main-part{
+	width: 97.3%;
+	margin-right: auto;
+	margin-left: auto;
+	height: 600px;
+	padding: 10px;
+	display: flex;
+	/* overflow-y: scroll; */
+	flex-direction: row;
+	justify-content:center;
+	flex-wrap: wrap;
+	gap:  20px;
+	/* background-color: whitesmoke; */
+}
+
+
